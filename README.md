@@ -1,5 +1,11 @@
+Goal of the project is to calculate similarity between texts, and find duplicate texts using tresholding method. Project contains two stages:
+
+* Text Embeddings
+
+* Similarity search using vector database (Milvus)
+
 # Text Embeddings
-Goal of the project is to calculate similarity between texts, and find duplicate texts using tresholding method. First of all, sentences are converted into embeddings using sentence transformer that consider bi-directional context (BERT), and takes the average of all sentences in a text. In this way semantic meaning of unstructured data is extracted from the text. Texts having similar content are closer in multi-dimensional embedding space. Cosine similarity metric is used to compare the similarity between texts.
+First of all, sentences are converted into embeddings using sentence transformer that consider bi-directional context (BERT), and takes the average of all sentences in a text. In this way semantic meaning of unstructured data is extracted from the text. Texts having similar content are closer in multi-dimensional embedding space. Cosine similarity metric is used to compare the similarity between texts.
 
   ![](images/embedding.png?raw=true "Text Embeddings")
 
@@ -14,8 +20,4 @@ https://milvus.io/docs/v2.0.x/install_standalone-docker.md
 
 # DEPENDENCIES 
 
-<Box 
-  component={Paper} 
-  minHeight={320} // <Box /> prop
-  square // <Paper /> prop
-/>
+
