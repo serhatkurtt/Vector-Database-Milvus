@@ -5,7 +5,7 @@ Goal of the project is to calculate similarity between texts, and find duplicate
 
 # Milvus
 
-[](images/milvus.png?raw=true "Text Embeddings")
+![](images/milvus.png?raw=true "Vector Database")
 
 The Milvus vector database is designed to store and manage high dimensional vector embeddings. It is utilized to accelerate the similarity search. Milvus is installed using Docker Compose. Details can be found in the following link: 
 
