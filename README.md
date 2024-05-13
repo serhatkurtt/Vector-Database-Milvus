@@ -10,8 +10,8 @@ First of all, sentences are converted into embeddings using sentence transformer
 
   ![](images/embedding.png?raw=true "Text Embeddings")
 
-  Cosine similarity between two embedding vectors can be calculated as follows:
-  $ cosθ = \frac{A.B}{\|A|.|B|} $ 
+Cosine similarity between two embedding vectors can be calculated as follows:
+$ \text{cos}\theta = \frac{A \cdot B}{\|A\| \cdot \|B\|} $
 
 ## Milvus
 
