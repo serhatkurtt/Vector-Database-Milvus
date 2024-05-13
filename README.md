@@ -12,10 +12,10 @@ The Milvus vector database is designed to store and manage high dimensional vect
 https://milvus.io/docs/v2.0.x/install_standalone-docker.md
 
 
-DEPENDENCIES 
+# DEPENDENCIES 
 
-ruby: "~> 2.3.0", file: "Gemfile"
-postgres: "~> 9.3.0"
-python: "~> 2.7.0", file: "requirements.txt"
-node: "~> 5.5.0", file: "package.json"
-
+<Box 
+  component={Paper} 
+  minHeight={320} // <Box /> prop
+  square // <Paper /> prop
+/>
