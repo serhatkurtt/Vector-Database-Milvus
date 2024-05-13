@@ -12,7 +12,7 @@ First of all, sentences are converted into embeddings using sentence transformer
 
 Cosine similarity between two embedding vectors can be calculated as follows.
 
-$ cos(θ) = (A • B) / (‖A‖ * ‖B‖) $
+cos(θ) = (A • B) / (‖A‖ * ‖B‖) 
 
 ## Milvus
 
