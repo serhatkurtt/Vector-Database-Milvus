@@ -4,4 +4,4 @@ Goal of the project is to calculate similarity between texts. First of all, sent
   ![](images/embedding.png?raw=true "Text Embeddings")
 
 # Milvus
-The Milvus vector database is designed to store and manage high dimensional vector embeddings. It is utilized to enhance the efficiency of the similarity search. It is installed using Docker Compose.Pymilvus library is used to use Milvus database with Python.
+The Milvus vector database is designed to store and manage high dimensional vector embeddings. It is utilized to accelerate the similarity search. Milvus is installed using Docker Compose. Pymilvus library of python is used for handling Milvus server.
