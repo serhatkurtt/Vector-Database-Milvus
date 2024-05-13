@@ -11,7 +11,7 @@ First of all, sentences are converted into embeddings using sentence transformer
   ![](images/embedding.png?raw=true "Text Embeddings")
 
   Cosine similarity between two embedding vectors can be calculated as follows:
-  $ similarity = \frac{{\sum_{i=1}^{n} a_i \cdot b_i}}{{\sqrt{\sum_{i=1}^{n} a_i^2} \cdot \sqrt{\sum_{i=1}^{n} b_i^2}}} $ 
+  $ cosθ = \frac{A.B}{\|A|.|B|} $ 
 
 ## Milvus
 
